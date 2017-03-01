@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import com.kinggang.schoolca.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
