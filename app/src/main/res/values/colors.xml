@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="mianBackground">#FBB017</color>
+    <color name="btn_normal">#00FF80</color>
+    <color name="btn_pressed">#008000</color>
+    <color name="login_background">#151515</color>
 </resources>
