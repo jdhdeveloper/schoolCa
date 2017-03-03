@@ -12,6 +12,12 @@
     tools:context="com.kinggang.schoolca.view.activity.LoginActivity"
     android:orientation="vertical">
 
+    <Button
+        android:id="@+id/btn_login_quit"
+        android:background="@mipmap/btn_login_quit"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -41,6 +47,9 @@
             android:textColor="#FFF"
             android:textColorHint="#C2C2C2"
             android:hint="请输入用户名"
+            android:background="@null"
+            android:gravity="right"
+            android:textCursorDrawable="@drawable/color_cursor"
             android:textSize="16sp"
             android:layout_toRightOf="@id/txt_username"
             android:layout_alignBaseline="@id/txt_username"
@@ -61,7 +70,10 @@
             android:textColor="#FFF"
             android:textColorHint="#C2C2C2"
             android:hint="请输入密码"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/color_cursor"
             android:textSize="16sp"
+            android:gravity="right"
             android:layout_toRightOf="@id/txt_password"
             android:layout_alignBaseline="@id/txt_password"
             android:layout_alignLeft="@+id/et_username"

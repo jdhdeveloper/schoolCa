@@ -48,7 +48,7 @@ public class BaseActivity extends AppCompatActivity {
             System.exit(0);
         } else {
             isExit = true;
-            Toast.makeText(getApplicationContext(), "再按一次退出APP", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "再按一次退出App", Toast.LENGTH_SHORT).show();
             mHandler.sendEmptyMessageDelayed(0, 2000);// 3秒后发送消息
         }
     }
