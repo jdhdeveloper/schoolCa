@@ -12,6 +12,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
 import com.kinggang.schoolca.R;
+import com.kinggang.schoolca.utils.Utils;
 
 public class LoginActivity extends BaseActivity implements View.OnClickListener{
 
@@ -45,7 +46,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener{
         switch (v.getId()){
             case R.id.btn_login_quit:
                 //退出登录界面
-                Toast.makeText(this,"you clicked the quitBtn",Toast.LENGTH_SHORT).show();
+                Utils.showToast(this,"you clicked the quitBtn");
                 //finish();
                 break;
             case R.id.btn_login:
@@ -55,7 +56,7 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener{
                  * 3.接收服务器返回的值：1代表正确；2代表错误
                  * 4.正确则登录成功；错误则提示
                  */
-                Toast.makeText(this,"you clicked the loginBtn",Toast.LENGTH_SHORT).show();
+                Utils.showToast(this,"you clicked the loginBtn");
                 break;
             default:
                 break;
